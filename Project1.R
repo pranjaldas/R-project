@@ -233,19 +233,6 @@ wordcloud(
   words = corpus,
   max.words = 100)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Shinny App
 library(shiny)
 library(shinydashboard)
@@ -311,10 +298,6 @@ frow4 <- fluidRow(
 
 t2<-tabItem(tabName = "Gas", 
             frow3,frow4)
-
-
-
-
 
 # Create a UI with I/O controls
 body <- dashboardBody(tabItems(t1,t2))
