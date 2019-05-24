@@ -82,16 +82,16 @@ Top five cities of Netherland that consume maximum amount of Gas over the year 2
   <li>LELYSTAD (21437 UNITS).</li>
   <li>NIJKERK ( 25076 UNITS).</li>
 <li>WASSENAAR ( 19340 UNITS).</Li>
-<ol>
+<ol><br>
 Top five cities of Netherland that consume maximum amount of Electricity over the
-year 2010 are-
+year 2010 are-<br>
 <ol>
 <li>AMSTERDAM (59207 UNITS)</li>
 <li> ARINHEM (58553 UNITS).</li>
 <li>WIERINGERWERF (55085 UNITS).</li>
 <li>RIJNSBURG (51258 UNITS).</li>
 <li>ZEEWOLDE (51032 UNITS).</li>
- </ol>
+ </ol><br>
 Therefore, the energy administrators must be cautious about the above cities and should provide their best services to the cities for their profit.
 
 
