@@ -59,17 +59,17 @@ Now visualizing the data set using different parameters:<br>
 4.Univariate Visualization using annual_consume.
 <img src="Screenshots/img6.png">
 5.Creating density plot.
-<img src="Screenshots/img6.png">
-6.Ploting using plotly(city Vs annual_consume)
 <img src="Screenshots/img7.png">
+6.Ploting using plotly(city Vs annual_consume)
 <img src="Screenshots/img8.png">
-7.Pairs Scatter plot using parameters- city, net_manager, annual_ consume, num_connection.
 <img src="Screenshots/img9.png">
-8.Creating Word Cloud using parameter- city.
+7.Pairs Scatter plot using parameters- city, net_manager, annual_ consume, num_connection.
 <img src="Screenshots/img10.png">
+8.Creating Word Cloud using parameter- city.
+<img src="Screenshots/img11.png">
 PREPARE THE SHINNY WEB APPLICATION:<br>
 View of the Shinny Application.
-<img src="Screenshots/img11.png">
+<img src="Screenshots/img12.png">
 Full view of the Shinny Application.
 <img src="Screenshots/final.png">
 
