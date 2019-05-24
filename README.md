@@ -41,6 +41,7 @@ The application is useful for the different energy distributors to enhancing the
 
 READING AND CLEANING THE DATASET
 Initially we read three .csv files of the year 2010 from electricity file. Then we combined the files together.
+<img src="screenshots/img1.png">
 
 
 
