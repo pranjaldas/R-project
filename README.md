@@ -42,6 +42,9 @@ The application is useful for the different energy distributors to enhancing the
 READING AND CLEANING THE DATASET
 Initially we read three .csv files of the year 2010 from electricity file. Then we combined the files together.
 <img src="Screenshots/img1.png">
+Next cleaning of data by removing NA.
+<img src="Screenshots/img2.png">
+
 
 
 
