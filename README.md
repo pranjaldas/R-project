@@ -1,5 +1,5 @@
 # R-project on Data Visualization.
-ENERGY CONSUMPTION IN NETHERLAND
+<h1>ENERGY CONSUMPTION IN NETHERLAND:</h1><br>
 Enexis, Liander, and Stedin are the three major network administrators of the Netherlands and, together, they provide energy to nearly the entire country. Every year, they release on their websites a table with the energy consumption of the areas under their administration.
 The data are anonymized by aggregating the Zipcodes so that every entry describes at least 10 connections.
 This market is not competitive, meaning that the zones are assigned. This means that every year they roughly provide energy to the same zipcodes. Small changes can happen from year to year either for a change of management or for a different aggregation of zipcodes.
@@ -25,7 +25,7 @@ The columns in each file are:
 <li> From 10 p.m. to 7 a.m. and during weekends. </li>
 <li> smartmeter_perc: percentage of smartmeters in the zipcode ranges.</li>
 </ul>
-BACKGROUND OF THE DATASETS:
+BACKGROUND OF THE DATASETS:<br>
 Luca Basanisi (Data Scientist in pointlogic Rotterdam, Netherland) uploaded the dataset in Kaggle.<br>
 All the data are taken from the following websites:
 <ul>
@@ -37,17 +37,45 @@ Some processing was made with the code available at:<br>
 https://github.com/lucabasa/kaggle_dutch_energy/blob/master/raw_data_cleaning.ipynb<br>
 The translation of the column names and descriptions was made by a non-native speaker.
 
-OBJECTIVE AND SCOPE OF THE REPORT,TERGETED AUDIENCE:
+OBJECTIVE AND SCOPE OF THE REPORT,TERGETED AUDIENCE:<br>
 The energy distribution market is not competitive, meaning that the zones are assigned. This means that every year the network administrators roughly provide energy to the same zipcodes. Small changes can happen from year to year either for a change of management or for a different aggregation of zipcodes.
 
-RESULTING/USER AUDIENCES: 
+RESULTING/USER AUDIENCES:<br>
 The application is useful for the different energy distributors to enhancing their business by focusing more on the cities that consumed more electricity and gas over the year.
 
-READING AND CLEANING THE DATASET
+READING AND CLEANING THE DATASET:<br>
 Initially we read three .csv files of the year 2010 from electricity file. Then we combined the files together.
 <img src="Screenshots/img1.png">
 Next cleaning of data by removing NA.
 <img src="Screenshots/img2.png">
+VISUALIZE THE DATASET:<br>
+Now visualizing the data set using different parameters:<br>
+1.Univariate quantitative visualization using parameter annual_consume.
+<img src="Screenshots/img3.png">
+2.visualization using ggplot.
+<img src="Screenshots/img4.png">
+3.Visualization using Boxplot(Bivariate visualization using net_Manager and annual_consume):
+<img src="Screenshots/img5.png">
+4.Univariate Visualization using annual_consume.
+<img src="Screenshots/img6.png">
+5.Creating density plot.
+<img src="Screenshots/img6.png">
+6.Ploting using plotly(city Vs annual_consume)
+<img src="Screenshots/img7.png">
+<img src="Screenshots/img8.png">
+7.Pairs Scatter plot using parameters- city, net_manager, annual_ consume, num_connection.
+<img src="Screenshots/img9.png">
+8.Creating Word Cloud using parameter- city.
+<img src="Screenshots/img10.png">
+PREPARE THE SHINNY WEB APPLICATION:<br>
+View of the Shinny Application.
+<img src="Screenshots/img11.png">
+Full view of the Shinny Application.
+<img src="Screenshots/final.png">
+
+
+
+
 
 
 
