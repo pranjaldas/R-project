@@ -10,8 +10,8 @@ The columns in each file are:
 <li> net_manager: code of the regional network manager </li>
 <li> purchase_area: code of the area where the energy is purchased </li>
 <li> street: Name of the street </li>
-<li> zipcode_from and zipcode_to: 2 columns for the range of zipcodes covered. </li>
-<li> 4 numbers and 2 letters </li>
+<li> zipcode_from and zipcode_to: 2 columns for the range of zipcodes covered. 
+ 4 numbers and 2 letters </li>
 <li> city: Name of the city</li>
 <li> num_connections: Number of connections in the range of zipcodes</li>
 <li> delivery_perc: percentage of the net consumption of electricity or gas. The lower </li>
@@ -73,7 +73,26 @@ View of the Shinny Application.
 Full view of the Shinny Application.
 <img src="Screenshots/final.png">
 
-
+DETERMINE THE RESULTS:<br>
+Aftrer different Quantiative and Qualitative visualization using different parameters on the dataset, finally I can conclude that-<br>
+Top five cities of Netherland that consume maximum amount of Gas over the year 2010 are-<br>
+<ol>
+  <li>AMSTERDAM (24187 UNITS).</li>
+  <li>HILVERSUM (21749 UNITS).</li>
+  <li>LELYSTAD (21437 UNITS).</li>
+  <li>NIJKERK ( 25076 UNITS).</li>
+<li>WASSENAAR ( 19340 UNITS).</Li>
+<ol>
+Top five cities of Netherland that consume maximum amount of Electricity over the
+year 2010 are-
+<ol>
+<li>AMSTERDAM (59207 UNITS)</li>
+<li> ARINHEM (58553 UNITS).</li>
+<li>WIERINGERWERF (55085 UNITS).</li>
+<li>RIJNSBURG (51258 UNITS).</li>
+<li>ZEEWOLDE (51032 UNITS).</li>
+ </ol>
+Therefore, the energy administrators must be cautious about the above cities and should provide their best services to the cities for their profit.
 
 
 
