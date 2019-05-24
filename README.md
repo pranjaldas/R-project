@@ -7,31 +7,34 @@ The structure of dataset is following
 Every file is from a network administrator from a specific year. 
 The columns in each file are:
 <ul>
-<li>• net_manager: code of the regional network manager </li>
-<li>• purchase_area: code of the area where the energy is purchased </li>
-<li>• street: Name of the street </li>
-<li>• zipcode_from and zipcode_to: 2 columns for the range of zipcodes covered. </li>
-<li>• 4 numbers and 2 letters </li>
-<li>• city: Name of the city</li>
-<li>• num_connections: Number of connections in the range of zipcodes</li>
-<li>• delivery_perc: percentage of the net consumption of electricity or gas. The lower </li>
-<li>• the more energy was given back to the grid (for example if you have solar panels) </li>
-<li>• perc_of_active_connections: Percentage of active connections in the zipcode range</li>
-<li>• type_of_connection: principal type of connection in the zipcode range.</li>
-<li>• For electricity is # fuses X # ampère. For gas is G4, G6, G10, G16, G25 </li>
-<li>• type_conn_perc: percentage of presence of the principal type of connection in the zipcode range</li>
-<li>• annual_consume: Annual consume. Kwh for electricity, m3 for gas</li>
-<li>• annual_consume_lowtarif_perc: Percentage of consume during the low tarif hours. </li>
-<li>• From 10 p.m. to 7 a.m. and during weekends. </li>
-<li>• smartmeter_perc: percentage of smartmeters in the zipcode ranges.</li>
+<li> net_manager: code of the regional network manager </li>
+<li> purchase_area: code of the area where the energy is purchased </li>
+<li> street: Name of the street </li>
+<li> zipcode_from and zipcode_to: 2 columns for the range of zipcodes covered. </li>
+<li> 4 numbers and 2 letters </li>
+<li> city: Name of the city</li>
+<li> num_connections: Number of connections in the range of zipcodes</li>
+<li> delivery_perc: percentage of the net consumption of electricity or gas. The lower </li>
+<li> the more energy was given back to the grid (for example if you have solar panels) </li>
+<li> perc_of_active_connections: Percentage of active connections in the zipcode range</li>
+<li> type_of_connection: principal type of connection in the zipcode range.</li>
+<li> For electricity is # fuses X # ampère. For gas is G4, G6, G10, G16, G25 </li>
+<li> type_conn_perc: percentage of presence of the principal type of connection in the zipcode range</li>
+<li> annual_consume: Annual consume. Kwh for electricity, m3 for gas</li>
+<li> annual_consume_lowtarif_perc: Percentage of consume during the low tarif hours. </li>
+<li> From 10 p.m. to 7 a.m. and during weekends. </li>
+<li> smartmeter_perc: percentage of smartmeters in the zipcode ranges.</li>
 </ul>
 BACKGROUND OF THE DATASETS:
-Luca Basanisi (Data Scientist in pointlogic Rotterdam, Netherland) uploaded the dataset in Kaggle.
+Luca Basanisi (Data Scientist in pointlogic Rotterdam, Netherland) uploaded the dataset in Kaggle.<br>
 All the data are taken from the following websites:
-• https://www.enexis.nl/over-ons/wat-bieden-we/andere-diensten/open-data
-• https://www.liander.nl/partners/datadiensten/open-data/data
-• https://www.stedin.net/zakelijk/open-data/verbruiksgegevens
-Some processing was made with the code available at: https://github.com/lucabasa/kaggle_dutch_energy/blob/master/raw_data_cleaning.ipynb
+<ul>
+<li> https://www.enexis.nl/over-ons/wat-bieden-we/andere-diensten/open-data
+<li>https://www.liander.nl/partners/datadiensten/open-data/data
+<li>https://www.stedin.net/zakelijk/open-data/verbruiksgegevens
+</ul>
+Some processing was made with the code available at:<br>
+https://github.com/lucabasa/kaggle_dutch_energy/blob/master/raw_data_cleaning.ipynb<br>
 The translation of the column names and descriptions was made by a non-native speaker.
 
 OBJECTIVE AND SCOPE OF THE REPORT,TERGETED AUDIENCE:
